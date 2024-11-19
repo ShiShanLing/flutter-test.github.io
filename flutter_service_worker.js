@@ -3,25 +3,25 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"flutter_bootstrap.js": "037213d60c417bb74a13ac31bbc5ff80",
+const RESOURCES = {"flutter_bootstrap.js": "5cc28917cf8325f56eb839e874fc92cd",
 "version.json": "f3750ba2ab524cc05fad3b96b4b45d14",
-"index.html": "5216f2958ee3c3848a75867a246f20ba",
-"/": "5216f2958ee3c3848a75867a246f20ba",
-"flutterTest.github.io/main.dart.js": "207071f74b1b047da190ab07d0587fa3",
+"index.html": "0adb8a926ea9ec066b5f42e49ca8a9c1",
+"/": "0adb8a926ea9ec066b5f42e49ca8a9c1",
+"main.dart.js": "1c60c9d353d9410d5c188676670ee482",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "fd091ea5bc8f3ccc10f74bd67179fb6a",
-"flutterTest.github.io/assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
-"flutterTest.github.io/assets/NOTICES": "710c97b998c1885e1e01929a86c0251d",
-"flutterTest.github.io/assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"flutterTest.github.io/assets/AssetManifest.bin.json": "a1fee2517bf598633e2f67fcf3e26c94",
-"flutterTest.github.io/assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
-"flutterTest.github.io/assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9",
-"flutterTest.github.io/assets/fonts/MaterialIcons-Regular.otf": "0db35ae7a415370b89e807027510caf0",
+"manifest.json": "39e2a68ce8cf29b99a34bfc6e1e6dceb",
+"assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
+"assets/NOTICES": "710c97b998c1885e1e01929a86c0251d",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"assets/AssetManifest.bin.json": "a1fee2517bf598633e2f67fcf3e26c94",
+"assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
+"assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9",
+"assets/fonts/MaterialIcons-Regular.otf": "0db35ae7a415370b89e807027510caf0",
 "canvaskit/skwasm.js": "694fda5704053957c2594de355805228",
 "canvaskit/skwasm.js.symbols": "262f4827a1317abb59d71d6c587a93e2",
 "canvaskit/canvaskit.js.symbols": "48c83a2ce573d9692e8d970e288d75f7",
@@ -34,11 +34,11 @@ const RESOURCES = {"flutter_bootstrap.js": "037213d60c417bb74a13ac31bbc5ff80",
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = ["flutterTest.github.io/main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "flutter_bootstrap.js",
-"./flutterTest.github.io/assets/AssetManifest.bin.json",
-"./flutterTest.github.io/assets/FontManifest.json"];
+"assets/AssetManifest.bin.json",
+"assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {

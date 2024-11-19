@@ -28285,7 +28285,7 @@ r=s==null?null:s.content
 s=r==null
 if(!s)self.window.console.warn("The `assetBase` meta tag is now deprecated.\nUse engineInitializer.initializeEngine(config) instead.\nSee: https://docs.flutter.dev/development/platform-integration/web/initialization")
 q=this.b=s?"":r
-s=q}return A.FI(B.ez,s+"./flutterTest.github.io/assets/"+a,B.C,!1)}}
+s=q}return A.FI(B.ez,s+"assets/"+a,B.C,!1)}}
 A.nw.prototype={
 D(){return"BrowserEngine."+this.b}}
 A.h7.prototype={
@@ -48965,7 +48965,7 @@ return B.d.a8(r,s)},
 $S:332}
 A.xQ.prototype={
 T(a){var s=null
-return new A.nA(new A.mn(new A.PW(),s,s,A.aju(),A.aiu(),t.xc),s,s,new A.pf(new A.xR(s),"Namer App",A.a16(s,A.a2X(B.P,s,s,B.Au),!0),s),s,t.wt)}}
+return new A.nA(new A.mn(new A.PW(),s,s,A.aju(),A.aiu(),t.xc),s,s,new A.pf(new A.xR(s),"Flutter web test",A.a16(s,A.a2X(B.P,s,s,B.Au),!0),s),s,t.wt)}}
 A.PW.prototype={
 $1(a){return new A.h3(A.a5O(),$.az())},
 $S:333}

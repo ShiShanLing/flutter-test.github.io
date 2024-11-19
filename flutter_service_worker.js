@@ -37,8 +37,8 @@ const RESOURCES = {"flutter_bootstrap.js": "037213d60c417bb74a13ac31bbc5ff80",
 const CORE = ["flutterTest.github.io/main.dart.js",
 "index.html",
 "flutter_bootstrap.js",
-"flutterTest.github.io/assets/AssetManifest.bin.json",
-"flutterTest.github.io/assets/FontManifest.json"];
+"./flutterTest.github.io/assets/AssetManifest.bin.json",
+"./flutterTest.github.io/assets/FontManifest.json"];
 
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
